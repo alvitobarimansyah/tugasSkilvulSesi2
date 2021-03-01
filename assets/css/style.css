@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: right;
+    padding: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aqua;
+    margin-right: 15px;
+    
+}
+
+h3 {
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* style halaman index */
+.jumbotron {
+    margin: 150px 150px;
+}
+
+.img-github {
+    width: 180px;
+    height: 120px;
+}
+
+.img-linkedin {
+    width: 120px;
+    height: 120px;
+}
+
+/* style halaman about */
+.tentang-saya {
+    
+    width: 50%;
+    margin-top: 125px;
+    margin-left: 75px;
+    text-align: center;
+}
+
+.skill {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-right: 5px;
+    width: 25%;
+    text-align: center;
+}
+
+.interest {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+/* style halaman works */
+
+.tentang-jakarta {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    width: 25%;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 35px;
+    text-align: center;
+}
+
+.tentang-jakarta img {
+    width: 100%;
+    height: 50%;
+}
+
+.kalkulator-web {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    width: 25%;
+    margin-top: 25px;
+    margin-right: 35px;
+    text-align: center;
+}
+
+.kalkulator-web img {
+    width: 100%;
+    height: 50%;
+}
+
+.blog-saya {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    width: 25%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.blog-saya img {
+    width: 100%;
+    height: 50%;
+}
+
+.blog-belajar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    width: 25%;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 35px;
+    text-align: center;
+}
+
+.blog-belajar img {
+    width: 100%;
+    height: 50%;
+}
+
+.informasi-pegawai {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    width: 25%;
+    margin-top: 25px;
+    margin-right: 35px;
+    text-align: center;
+}
+
+.informasi-pegawai img {
+    width: 100%;
+    height: 50%;
+}
+
+/* style halaman hobby */
+.programming {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.programming img {
+    width: 25%;
+    height: 25%;
+}
+
+.gaming {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.gaming img {
+    width: 25%;
+    height: 25%;
+}
+
+.music {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.music img {
+    width: 25%;
+    height: 25%;
+}
+
+.anime {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.anime img {
+    width: 25%;
+    height: 25%;
+}
