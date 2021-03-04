@@ -8,8 +8,9 @@ body {
 }
 
 nav {
-    text-align: right;
-    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
 }
 
 nav a {
@@ -21,11 +22,18 @@ nav a {
 
 h3 {
     margin-top: 75px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 ul {
     list-style-type: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 /* style halaman index */
@@ -45,154 +53,55 @@ ul {
 
 /* style halaman about */
 .tentang-saya {
-    
     width: 50%;
-    margin-top: 125px;
-    margin-left: 75px;
-    text-align: center;
+    margin-left: 25px;
 }
 
 .skill {
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 75px;
-    margin-right: 5px;
     width: 25%;
-    text-align: center;
 }
 
 .interest {
-    display: inline-block;
     width: 25%;
-    text-align: center;
 }
 
 /* style halaman works */
-
-.tentang-jakarta {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
-    border-radius: 5px;
-    padding: 20px;
-    display: inline-block;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
     width: 25%;
-    margin-top: 25px;
-    margin-left: 50px;
-    margin-right: 35px;
-    text-align: center;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 
-.tentang-jakarta img {
+.card img {
     width: 100%;
-    height: 50%;
 }
 
-.kalkulator-web {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
-    border-radius: 5px;
-    padding: 20px;
-    display: inline-block;
-    width: 25%;
-    margin-top: 25px;
-    margin-right: 35px;
+.card-body {
+    padding: 2px 16px;
     text-align: center;
-}
-
-.kalkulator-web img {
-    width: 100%;
-    height: 50%;
-}
-
-.blog-saya {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
-    border-radius: 5px;
-    padding: 20px;
-    display: inline-block;
-    width: 25%;
-    margin-top: 25px;
-    text-align: center;
-}
-
-.blog-saya img {
-    width: 100%;
-    height: 50%;
-}
-
-.blog-belajar {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
-    border-radius: 5px;
-    padding: 20px;
-    display: inline-block;
-    width: 25%;
-    margin-top: 25px;
-    margin-left: 50px;
-    margin-right: 35px;
-    text-align: center;
-}
-
-.blog-belajar img {
-    width: 100%;
-    height: 50%;
-}
-
-.informasi-pegawai {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
-    border-radius: 5px;
-    padding: 20px;
-    display: inline-block;
-    width: 25%;
-    margin-top: 25px;
-    margin-right: 35px;
-    text-align: center;
-}
-
-.informasi-pegawai img {
-    width: 100%;
-    height: 50%;
 }
 
 /* style halaman hobby */
-.programming {
+.hobby-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.programming img {
+.hobby-container img {
     width: 25%;
     height: 25%;
 }
 
-.gaming {
+.hobby-container-reverse {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
 }
 
-.gaming img {
-    width: 25%;
-    height: 25%;
-}
-
-.music {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.music img {
-    width: 25%;
-    height: 25%;
-}
-
-.anime {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
-}
-
-.anime img {
+.hobby-container-reverse img {
     width: 25%;
     height: 25%;
 }
